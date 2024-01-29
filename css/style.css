@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow:white;
+    color: white;
+
+    /* <link rel="preconnect" href="https://fonts.googleapis.com"> */
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Jhin-video{
+    width: 800px;
+    display: block;
+    border-width: 10px;
+    border-style:outset;
+    border-color: white;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 25px;
+
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.menu li{
+    float:left;
+}
+
+.menu li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 50px;
+    text-decoration: none;
+
+}
+
+.menu li a:hover{
+    background-color:darkgray;
+}
