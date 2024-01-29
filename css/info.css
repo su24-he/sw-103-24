@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+
+.Quote{
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow:white;
+    color: white;
+
+}
+
+.quote1{
+    /*  (Italicized) */
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 20px;
+
+}
+
+.life{
+    color: white;
+    font-size: 20px;
+
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+}
+
+.ul{
+    padding-left: 20px;
+}
+
+.li{
+    margin-bottom: 10px; 
+}
+
+
+
+.content-container {
+    display: flex;
+    padding-left: 150px;
+  
+}
+img{
+    border-width: 10px;
+    border-style:outset;
+    border-color: white;
+    width: 550px;
+   
+}
+
+.info{
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+
+table{
+    width: 550px;
+    height: 400px; 
+}
+
+th, td {
+    padding: 10px;
+    border: 3px solid burlywood;  
+}
+
+
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 25px;
+
+}
+
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: darkgray;
+}
+
+
+.font{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
